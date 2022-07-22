@@ -7,7 +7,6 @@
     tools:context=".HomeFragment"
     android:background="@color/white" >
 
-
     <Button
         android:id="@+id/add"
         android:layout_width="204dp"

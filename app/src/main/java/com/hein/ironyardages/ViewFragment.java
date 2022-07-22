@@ -26,6 +26,7 @@ public class ViewFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_view, container, false);
         recyclerView = view.findViewById(R.id.recyclerView);
@@ -35,7 +36,6 @@ public class ViewFragment extends Fragment {
 
         recyclerAdapter = new RecyclerAdapter(clubList);
         recyclerView.setAdapter(recyclerAdapter);
-
 
         return view;
     }

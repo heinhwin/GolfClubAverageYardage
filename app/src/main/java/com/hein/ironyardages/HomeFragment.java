@@ -50,6 +50,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.view:
+
                 MainActivity.fragmentManager.beginTransaction()
                         .replace(R.id.Container, new ViewFragment(), null)
                         .addToBackStack(null)
